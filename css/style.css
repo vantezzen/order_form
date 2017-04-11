@@ -1,0 +1,29 @@
+input.ng-dirty.ng-invalid {
+    border-color: #F44336;
+}
+
+input.ng-dirty.ng-valid {
+    border-color: #4CAF50;
+}
+
+body {
+    background: #fdfdfd;
+}
+
+.form-group-mini {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+}
+
+.form-group-mini:first-child {
+    padding-left: 0;
+}
+
+.form-group-mini:last-child {
+    padding-right: 0;
+}
+
+.input-group-addon {
+    min-width: 150px;
+}
